@@ -4,6 +4,13 @@ use Think\Controller;
 
 class TypeController extends \Think\Controller
 {
+	//如果没有登录 只能展示登录界面
+	public function _before_index()
+    {
+        if (!session("adminuser")) {
+            $this->redirect("/Admin/login");
+        }
+    }
 	//展示列表页
 	public function index()
 	{
