@@ -1,0 +1,25 @@
+[ 2018-04-17T11:36:20+08:00 ] 127.0.0.1 /Admin/dealtypedelete/
+ERR: 无法加载控制器:Dealtypedelete
+
+[ 2018-04-17T11:37:32+08:00 ] 127.0.0.1 /Admin/dealtypedelete/
+ERR: 无法加载控制器:Dealtypedelete
+
+[ 2018-04-17T14:16:31+08:00 ] 127.0.0.1 /Admin/typerecovery/
+ERR: 无法加载控制器:Typerecovery
+
+[ 2018-04-17T14:18:45+08:00 ] 127.0.0.1 /Admin/commentrecovery/30
+ERR: 无法加载控制器:Commentrecovery
+
+[ 2018-04-17T14:29:38+08:00 ] 127.0.0.1 /Admin/logout.php
+ERR: 无法加载控制器:Logout.php
+
+[ 2018-04-17T16:28:34+08:00 ] 127.0.0.1 /Admin/dealarticleedit
+ERR: 非法数据对象！
+
+[ 2018-04-17T16:39:51+08:00 ] 127.0.0.1 /Admin/dealarticleedit
+ERR: 非法数据对象！
+
+[ 2018-04-17T16:42:06+08:00 ] 127.0.0.1 /Admin/dealarticleedit
+ERR: 1364:Field 'created_at' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_article` (`id`,`title`,`author`,`typeid`,`desc`,`content`) VALUES ('19','1','qwe','3','sdsada','fvfvza')
+

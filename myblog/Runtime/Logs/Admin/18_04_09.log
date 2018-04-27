@@ -1,0 +1,132 @@
+[ 2018-04-09T18:18:41+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:25:55+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:33:02+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:37:12+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:40:53+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:41:55+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:41:58+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:42:41+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:42:47+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:43:33+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:44:22+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:44:44+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:44:53+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:44:57+08:00 ] 127.0.0.1 /Admin/dologin.php
+ERR: 无法加载控制器:Dologin.php
+
+[ 2018-04-09T18:45:03+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:46:43+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:52:21+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:52:25+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T18:52:37+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: 无法加载控制器:DealLogin
+
+[ 2018-04-09T19:05:33+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-09T19:06:41+08:00 ] 127.0.0.1 /Admin/dealLogin
+ERR: Think\Model:getUserInfo方法不存在！
+
+[ 2018-04-09T20:08:45+08:00 ] 127.0.0.1 /Admin/cate_index
+ERR: 无法加载控制器:Cate_index
+
+[ 2018-04-09T20:09:16+08:00 ] 127.0.0.1 /Admin/index/type
+ERR: 非法操作:type
+
+[ 2018-04-09T20:10:58+08:00 ] 127.0.0.1 /Admin/index/type
+ERR: 非法操作:type
+
+[ 2018-04-09T20:11:57+08:00 ] 127.0.0.1 /Admin/index/type
+ERR: 非法操作:type
+
+[ 2018-04-09T20:12:05+08:00 ] 127.0.0.1 /Admin/index/Type
+ERR: 非法操作:Type
+
+[ 2018-04-09T20:12:47+08:00 ] 127.0.0.1 /Admin/index/Type
+ERR: 非法操作:Type
+
+[ 2018-04-09T20:12:52+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:13:10+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:14:20+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:14:21+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:14:54+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:15:00+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:16:01+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:16:12+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypeList方法不存在！
+
+[ 2018-04-09T20:16:36+08:00 ] 127.0.0.1 /Admin/Type
+ERR: Think\Model:getTypelist方法不存在！
+
+[ 2018-04-09T20:31:28+08:00 ] 127.0.0.1 /Admin/showadd.php
+ERR: 无法加载控制器:Showadd.php
+
+[ 2018-04-09T20:31:45+08:00 ] 127.0.0.1 /Admin/showadd.php
+ERR: 无法加载控制器:Showadd.php
+
+[ 2018-04-09T20:32:28+08:00 ] 127.0.0.1 /Admin/showadd.php
+ERR: 无法加载控制器:Showadd.php
+
+[ 2018-04-09T20:34:04+08:00 ] 127.0.0.1 /Admin/showadd.php
+ERR: 无法加载控制器:Showadd.php
+
+[ 2018-04-09T20:34:07+08:00 ] 127.0.0.1 /Admin/showadd.php
+ERR: 无法加载控制器:Showadd.php
+
+[ 2018-04-09T20:35:08+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: Think\Model:getAllType方法不存在！
+
+[ 2018-04-09T20:40:41+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: Think\Model:selcet方法不存在！
+
+[ 2018-04-09T20:52:47+08:00 ] 127.0.0.1 /Admin/typeadd
+ERR: 无法加载控制器:Typeadd
+

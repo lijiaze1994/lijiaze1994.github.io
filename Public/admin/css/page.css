@@ -1,0 +1,25 @@
+
+/*{margin:0; padding:0; list-style:none; text-decoration:none;}
+.hide {display: none !important;}
+/* 新的分页 */
+.pu_page{height:40px;margin:0 auto;clear: both;}
+.pu_page ul{height:40px;}
+.pu_page li{min-width: 40px;height:40px;line-height:40px;float:left;color: #555;margin-right: 10px;list-style: none;}
+.pu_page li a{padding:0 16px; color: #99a1a7;font-style: italic;font-size:16px;height:40px;font-weight:bold;display:block;text-align:center;background: #eff2f5;border-radius:2px;}
+.pu_page li a:hover{background:#3498db;color:#555;color:#fff;transition: background-color 0.2s ease-out;}
+.pu_page li a:hover i{color:#fff;}
+.pu_page li a.on{background:#2c3e50;color:#fff;}
+.pu_page li.form_page{width:60px;}
+.pu_page li.form_page .page_input{height:40px;border:1px solid #ebeff3;border-radius:2px; height:38px;font-size:18px;width:48px;padding:0 5px; outline:none;background: transparent;}
+.pu_page li.next{width:160px;margin:0;float:right;}
+.pu_page li.next a{padding:0 20px;}
+.pu_page li.next span{float:left;}
+.pu_page li.pre{width:110px;margin-right:20px;float:right;}
+.pu_page li.pre i{float:left;margin-left: 35px;}
+.pu_page li i{font-size:18px;height:40px;width:20px;line-height:40px;display:block;font-size:25px;color:#99a1a7;float:right;}
+
+ /*自适应下分页包裹层*/
+ .page_wp { max-width: 1180px; margin-bottom: 30px; 
+    margin-left: 3.1746031%;/*40/1260*/
+    margin-right: 3.1746031%;/*40/1260*/
+ }

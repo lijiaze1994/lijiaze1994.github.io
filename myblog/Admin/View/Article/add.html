@@ -1,0 +1,137 @@
+<extend name="Public:base" />
+</extend>
+<block name='css'>
+        <link rel="stylesheet" href="__PUBLIC__/kindeditor/themes/default/default.css" />
+        <link rel="stylesheet" href="__PUBLIC__/kindeditor/plugins/code/prettify.css" />
+</block>
+<block name='main'>
+<div class="admin">
+  <div class="tab">
+    <div class="tab-head"> <strong>文章管理</strong>
+      <ul class="tab-nav">
+        <li class="active"><a href="#tab-set">添加文章</a></li>
+      </ul>
+    </div>
+    <div class="tab-body"> <br />
+      <div class="tab-panel active" id="tab-set">
+          <form method="POST" class="form-x" action="/Admin/dealarticleadd" 
+                enctype="multipart/form-data">
+          <div class="form-group">
+            <div class="label">
+              <label for="sitename">文章标题</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="title" name="title" 
+                     size="50" placeholder="文章标题" data-validate="required:请填写您的文章标题" />
+            </div>
+          </div>
+         <div class="form-group">
+            <div class="label">
+              <label for="logo">缩略图</label>
+            </div>
+            <div class="field"> <a class="button input-file" href="javascript:void(0);">上传文件
+              <input size="100" type="file" name="cover" onchange="preview(this)" 
+                     data-validate="required:请选择上传文件,regexp#.+.(jpg|jpeg|png|gif)$:只能上传jpg|gif|png格式文件" />
+              </a> </div>
+          </div>
+
+
+          <div class="form-group">
+            <div class="label">
+              <label for="sitename"></label>
+            </div>
+            <div class="field">
+                <div id="preview" ></div>
+
+                <script type="text/javascript">
+                        function preview(file) {
+                            var prevDiv = document.getElementById('preview');
+                            if (file.files && file.files[0]) {
+                                var reader = new FileReader();
+                                reader.onload = function(evt) {
+                                    prevDiv.innerHTML = '<img style="width:150px;height:150px;" src="' + evt.target.result + '" />';
+                                }
+                                reader.readAsDataURL(file.files[0]);
+                            } else {
+                                prevDiv.innerHTML = '<div class="img" style="filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod=scale,src=\'' + file.value + '\'"></div>';
+                            }
+                        }
+                </script>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <div class="label">
+              <label for="siteurl">文章作者</label>
+            </div>
+            <div class="field">
+              <input type="text" class="input" id="author" name="author" 
+                     size="50" placeholder="请填写文章作者" data-validate="required:请填写文章作者" />
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label">
+              <label for="sitename">所属类别</label>
+            </div>
+            <div class="field">
+              <select name="typeid" class="select">
+                        <foreach name="typelist" item="vo" >
+                                <option value="{$vo['id']}">{$vo['name']}</option>
+                        </foreach>> 
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label">
+              <label for="readme">文章描述</label>
+            </div>
+            <div class="field">
+              <textarea name="desc" class="input" rows="2" cols="50" placeholder="请填写文章描述" data-validate="required:请填写文章描述"></textarea>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label">
+              <label for="readme">文章内容</label>
+            </div>
+            <div class="field">
+            
+             <textarea name="content" style="width:1100px;height:500px;visibility:hidden;"></textarea>
+            </div>
+          </div>
+          <div class="form-button">
+            <button name="submit" class="button bg-main" type="submit">提交</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div style='height:40px; border-bottom:1px #DDD solid'></div>
+  <p class="text-right text-gray" style="float:right">基于<a class="text-gray" target="_blank" href="#">MVC框架</a>构建</p>
+</div>
+    
+        <script charset="utf-8" src="__PUBLIC__/kindeditor/kindeditor-all.js"></script>
+	<script charset="utf-8" src="__PUBLIC__/kindeditor/lang/zh-CN.js"></script>
+	<script charset="utf-8" src="__PUBLIC__/kindeditor/plugins/code/prettify.js"></script>
+	<script>
+		KindEditor.ready(function(K) {
+			var editor1 = K.create('textarea[name="content"]', {
+				cssPath : '__PUBLIC__/kindeditor/plugins/code/prettify.css',
+				uploadJson : '/Admin/addeditorimg',
+				fileManagerJson : '__PUBLIC__/kindeditor/php/file_manager_json.php',
+				allowFileManager : true,
+				afterCreate : function() {
+					var self = this;
+					K.ctrl(document, 13, function() {
+						self.sync();
+						K('form[name=example]')[0].submit();
+					});
+					K.ctrl(self.edit.doc, 13, function() {
+						self.sync();
+						K('form[name=example]')[0].submit();
+					});
+				}
+			});
+			prettyPrint();
+		});
+	</script>
+</block>

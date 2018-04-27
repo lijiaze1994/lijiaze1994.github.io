@@ -1,0 +1,103 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.container{
+	width: 1920px;
+	height: 974px;
+	background:url(../images/bg-z.jpg) no-repeat ;
+	background-size: 1920px 974px;
+}
+.con{
+	width:1600px;
+	height:794px; 
+	overflow: hidden;
+	zoom:1;
+}
+.center{
+	width: 400px;
+	height: 500px;
+	margin: 150px 800px;
+	background-color: rgba(55, 63, 74,0.6);
+	border-radius: 10px;
+}
+.form-header{
+	width: 400px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color:#fff;
+	padding-top: 20px;
+	
+}
+.h2 h2{
+	font-size: 25px;
+	font-weight: 10px;
+}
+
+.form-text{
+	width: 400px;
+	height: 300px;
+	text-align: center;
+	padding-top: 50px;
+}
+.form-ground{
+	width: 300px;
+	height: 50px;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+.form-ground input{
+	width: 260px;
+	height: 40px;
+	border-radius: 10px;
+}
+.form-btn{
+	width: 300px;
+	height: 40px;
+}
+.inp{
+	border:0px;
+	outline: none;
+	padding: 1px 0px 1px 8px ;
+}
+.y{
+	width: 160px !important;
+	height: 40px;
+	text-align: left;
+	margin-left: 4px;
+}
+.btn{
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	margin-top: 30px;
+	border-radius: 10px;
+}
+.cord{
+	display: flex;
+	justify-content: space-around;
+}
+.cord img:hover{
+	cursor: pointer;
+}
+.a1{
+	color: white;
+	width: 200px; 
+	margin: 0px auto;
+	text-decoration: none;
+	margin-top: 20px; 
+	display: block;
+	text-align: center;
+}
+.a1:hover{
+	color: rgb(255, 206, 68);
+	transition: 0.6s all;
+}
+.code{
+	width: 100px;
+	height: 40px;
+	border-radius: 10px;
+	margin-left:-20px;
+}

@@ -1,0 +1,55 @@
+[ 2018-04-16T08:49:46+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T10:20:16+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T10:37:55+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T10:47:05+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T10:47:08+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T11:10:40+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T14:07:51+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T15:23:50+08:00 ] 127.0.0.1 /home/articlelikessss
+ERR: 无法加载控制器:Articlelikessss
+
+[ 2018-04-16T19:18:11+08:00 ] 127.0.0.1 /home/articlelike?search=%E6%8A%80%E6%9C%AF
+ERR: 模板不存在:./myblog/Home/View/Article/search.html
+
+[ 2018-04-16T19:18:24+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T19:18:24+08:00 ] 127.0.0.1 /Public/home/css/bootstrap.min.css.map
+ERR: 无法加载控制器:Public
+
+[ 2018-04-16T19:18:32+08:00 ] 127.0.0.1 /home/articlelike?search=ad
+ERR: 模板不存在:./myblog/Home/View/Article/search.html
+
+[ 2018-04-16T19:38:11+08:00 ] 127.0.0.1 /home/articlelike?search=34
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'like ) AND (  %34% ) ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `blog_article` WHERE (  (  like ) AND (  %34% ) ) LIMIT 1  
+
+[ 2018-04-16T19:39:51+08:00 ] 127.0.0.1 /blog/model/home/article/list.php
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-16T19:40:03+08:00 ] 127.0.0.1 /blog/model/home/article/list.php
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-16T19:41:00+08:00 ] 127.0.0.1 /blog/model/home/article/list.php
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-16T21:26:41+08:00 ] 127.0.0.1 /Article/h5.html
+ERR: 非法操作:h5
+
+[ 2018-04-16T21:26:44+08:00 ] 127.0.0.1 /Article/linux.html
+ERR: 非法操作:linux
+

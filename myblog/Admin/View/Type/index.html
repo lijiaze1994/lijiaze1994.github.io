@@ -1,0 +1,67 @@
+<extend name="Public:base" />
+</extend>
+<block name='main'>
+
+<div class="admin">
+    <empty name="isdelete">
+	    <form method="post" action="/Admin/dealtypedeletes">
+    <else />
+        <form method="post" action="/Admin/typerecoverys">
+    </empty>
+    <div class="panel admin-panel">
+        <div class="panel-head"><strong>分类列表</strong></div>
+        <div class="padding border-bottom">
+            <input type="button" class="button button-small checkall" name="checkall" checkfor="id[]" value="全选" />
+            <a href="/Admin/typeadd"> 
+               <input type="button" id="btnAdd" class="button button-small border-green" value="添加分类" />
+            </a>   
+             <empty name="isdelete">
+                <input type="submit" class="button button-small border-yellow" value="批量删除" />
+                  <a href="/Admin/typelist/isdelete/1">
+            <input type="button" class="button button-small border-blue" value="回收站" />
+        </a>
+            <else />
+                <input type="submit" class="button button-small border-yellow" value="批量恢复" />
+                <a href="/Admin/typelist">
+                <input type="button" class="button button-small border-yellow"  value="返回类别列表" />
+                </a>
+             </empty>
+           
+        </div>
+        <table class="table table-hover">
+		     <tr>
+                <th width="45">选择</th>
+                <th width="120">所属类别</th>
+                <th width="240">分类名称</th>
+                <th width="*">分类描述</th>
+                <th width="100">操作</th>
+            </tr>
+            <foreach name="list" item="vo">
+            <tr>
+                <td><input type="checkbox" name="id[]" value="{$vo['id']}" /></td>
+                <td>{$vo["pname"]}</td>
+                <td>
+                    {$vo["name"]}
+                </td>
+                <td>{$vo['desc']}</td>
+                <td>
+                    <empty name="isdelete">
+                    <a class="button border-blue button-little" href="/Admin/typeedit/{$vo['id']}">修改</a> 
+                    <a class="button border-yellow button-little" href="/Admin/dealtypedelete/{$vo['id']}" onclick="">删除</a>
+                    <else />
+                     <a class="button border-yellow button-little" href="/Admin/typerecovery/{$vo['id']}" onclick="">恢复</a>
+                    </empty>
+                </td>
+            </tr>
+            </foreach>
+        </table>
+        <div class="pu_page mtm">
+            {$page}
+        </div>
+    </div>
+    </form>
+    <br />
+    <p class="text-right text-gray">基于<a class="text-gray" target="_blank" href="#">MVC框架</a>构建</p>
+</div>
+
+</block>

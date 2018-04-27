@@ -1,0 +1,302 @@
+[ 2018-04-12T08:39:45+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T08:40:46+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:42:28+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:43:22+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:43:49+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:44:37+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:44:50+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:45:30+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:48:56+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:51:03+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:53:38+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:53:53+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:54:15+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:54:29+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:56:18+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:56:56+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T08:58:02+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:02:09+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:02:48+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:03:12+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:04:59+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:12:52+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:17:16+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T09:57:47+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: Think\Model:insert方法不存在！
+
+[ 2018-04-12T09:58:45+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: Think\Model:insert方法不存在！
+
+[ 2018-04-12T09:59:52+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1364:Field 'username' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_user` () VALUES ()
+
+[ 2018-04-12T10:06:36+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1364:Field 'username' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_user` () VALUES ()
+
+[ 2018-04-12T10:16:42+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 非法数据对象！
+
+[ 2018-04-12T10:17:25+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 非法数据对象！
+
+[ 2018-04-12T10:22:41+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T10:24:44+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T10:25:10+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T10:25:12+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T10:25:43+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T10:26:05+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T10:26:08+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T10:27:53+08:00 ] 127.0.0.1 /Register/register
+ERR: 非法操作:register
+
+[ 2018-04-12T10:43:48+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1062:Duplicate entry 'lee' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`) VALUES ('lee','68e93423d230edbeae7010d457100cca')
+
+[ 2018-04-12T10:44:16+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1062:Duplicate entry 'lee' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`) VALUES ('lee','68e93423d230edbeae7010d457100cca')
+
+[ 2018-04-12T10:46:07+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1062:Duplicate entry 'yaoj' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`) VALUES ('yaoj','92b159709343c8900c11f223a80424f1')
+
+[ 2018-04-12T10:46:34+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1062:Duplicate entry 'yaoj' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`) VALUES ('yaoj','5f1e3e85cc04e46607350b753d949026')
+
+[ 2018-04-12T10:47:43+08:00 ] 127.0.0.1 /Register/dealregister
+ERR: 1062:Duplicate entry 'yaoj' for key 'user_name'
+ [ SQL语句 ] : INSERT INTO `blog_user` (`username`,`password`) VALUES ('yaoj','1cdd40a7edb58d7f755f1f85fa0f738b')
+
+[ 2018-04-12T10:58:12+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T11:22:54+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T11:22:58+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T11:23:06+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T11:23:33+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T11:23:38+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T11:23:55+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T11:24:11+08:00 ] 127.0.0.1 /LOgin/dealLogin
+ERR: 无法加载控制器:LOgin
+
+[ 2018-04-12T11:25:06+08:00 ] 127.0.0.1 /Login/dLogin
+ERR: 非法操作:dLogin
+
+[ 2018-04-12T11:25:28+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T11:30:32+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T11:41:02+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T11:41:06+08:00 ] 127.0.0.1 /comment/doadd.php
+ERR: 无法加载控制器:Comment
+
+[ 2018-04-12T11:41:08+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T13:58:07+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T13:58:08+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T13:58:09+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T13:58:09+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T13:58:37+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T14:25:31+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T14:29:55+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:32:09+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:32:16+08:00 ] 127.0.0.1 /blog/model/home/user/showlogin.php
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:32:18+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:32:58+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:34:09+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:34:18+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:35:35+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:35:37+08:00 ] 127.0.0.1 /Login/login
+ERR: 非法操作:login
+
+[ 2018-04-12T14:36:12+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:39:57+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:40:47+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:41:11+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:41:20+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:45:41+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:45:51+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:46:10+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:47:01+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:47:10+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:47:22+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T14:47:43+08:00 ] 127.0.0.1 /blog/public/home/js/jquery.js
+ERR: 无法加载控制器:Blog
+
+[ 2018-04-12T16:10:56+08:00 ] 127.0.0.1 /Article/dealComment?
+ERR: 非法操作:dealComment
+
+[ 2018-04-12T16:11:18+08:00 ] 127.0.0.1 /Article/dealcomment?
+ERR: 非法操作:dealcomment
+
+[ 2018-04-12T16:16:18+08:00 ] 127.0.0.1 /Article/dealcomment?
+ERR: Think\Model:getCommentlist方法不存在！
+
+[ 2018-04-12T16:49:58+08:00 ] 127.0.0.1 /Article/dealcomment?comment=
+ERR: 非法操作:dealcomment
+
+[ 2018-04-12T16:50:37+08:00 ] 127.0.0.1 /Detail/dealcomment?comment=
+ERR: 非法操作:dealcomment
+
+[ 2018-04-12T17:11:53+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`created_at`) VALUES ('1523524313')
+
+[ 2018-04-12T17:40:23+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-12T17:40:38+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`created_at`) VALUES ('1523526038')
+
+[ 2018-04-12T17:49:47+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`created_at`) VALUES ('1523526587')
+
+[ 2018-04-12T18:45:54+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`content`,`created_at`) VALUES ('aqeqweczc','1523529954')
+
+[ 2018-04-12T18:56:38+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`content`,`created_at`) VALUES ('adasd','1523530598')
+
+[ 2018-04-12T19:01:24+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'publish_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`article_id`,`content`,`created_at`) VALUES ('13','adasdadasd','1523530884')
+
+[ 2018-04-12T19:02:29+08:00 ] 127.0.0.1 /Detail/commentinsert
+ERR: 1364:Field 'publish_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`article_id`,`content`,`created_at`) VALUES ('13','adasdadasd','1523530949')
+

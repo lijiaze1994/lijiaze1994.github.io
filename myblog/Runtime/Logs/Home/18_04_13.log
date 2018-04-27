@@ -1,0 +1,95 @@
+[ 2018-04-13T09:00:05+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T09:17:11+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T09:18:44+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T09:24:17+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T09:25:04+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T09:26:27+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T09:53:42+08:00 ] 127.0.0.1 /articledetail/18
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T09:54:35+08:00 ] 127.0.0.1 /articledetail/18
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T09:57:37+08:00 ] 127.0.0.1 /articledetail/18
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T09:57:38+08:00 ] 127.0.0.1 /articledetail/18
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T10:22:40+08:00 ] 127.0.0.1 /articledetail/13
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T10:41:52+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1146:Table 'myblog.blog_has' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `blog_has`
+
+[ 2018-04-13T10:42:34+08:00 ] 127.0.0.1 /articledetail/13
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T10:46:21+08:00 ] 127.0.0.1 /articledetail/13
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T10:49:33+08:00 ] 127.0.0.1 /articledetail/13
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T10:51:06+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1054:Unknown column 'article_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( 1=1 AND article_id='1' ) ORDER BY create_time desc 
+
+[ 2018-04-13T10:51:43+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_comment` WHERE ( 1=1 AND parent_id='1' ) ORDER BY create_time desc 
+
+[ 2018-04-13T10:52:07+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_comment` WHERE ( 1=1 AND parent_id='1' ) ORDER BY create_time desc 
+
+[ 2018-04-13T11:11:23+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_comment` WHERE ( 1=1 AND parent_id='1' ) ORDER BY create_time desc 
+
+[ 2018-04-13T11:17:45+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( 1=1 AND parent_id='3' ) ORDER BY create_time desc 
+
+[ 2018-04-13T11:22:10+08:00 ] 127.0.0.1 /articledetail/13
+ERR: 1054:Unknown column 'parent_id' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `blog_article` WHERE ( 1=1 AND parent_id='3' ) ORDER BY create_time desc 
+
+[ 2018-04-13T11:39:51+08:00 ] 127.0.0.1 /articledetail/18
+ERR: Think\Model:relation方法不存在！
+
+[ 2018-04-13T13:08:21+08:00 ] 127.0.0.1 /Public/home/css/one.css
+ERR: 无法加载控制器:Public
+
+[ 2018-04-13T14:17:21+08:00 ] 127.0.0.1 /articledetail
+ERR: 无法加载控制器:Articledetail
+
+[ 2018-04-13T15:09:41+08:00 ] 127.0.0.1 /Detail/dealreply
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`quote_id`,`content`,`created_at`) VALUES ('22','ads','1523603381')
+
+[ 2018-04-13T15:10:05+08:00 ] 127.0.0.1 /Detail/dealreply
+ERR: 1364:Field 'article_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`quote_id`,`content`,`created_at`) VALUES ('22','ads','1523603405')
+
+[ 2018-04-13T15:10:20+08:00 ] 127.0.0.1 /Detail/dealreply
+ERR: 1364:Field 'publish_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`quote_id`,`article_id`,`content`,`created_at`) VALUES ('22','18','qweqeqw','1523603420')
+
+[ 2018-04-13T15:10:38+08:00 ] 127.0.0.1 /Detail/dealreply
+ERR: 1364:Field 'publish_user_name' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `blog_comment` (`quote_id`,`article_id`,`content`,`created_at`) VALUES ('22','18','qweqeqw','1523603438')
+
