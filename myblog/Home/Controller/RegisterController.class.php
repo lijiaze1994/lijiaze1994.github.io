@@ -27,12 +27,16 @@ class RegisterController extends CommonController
        if (FALSE == $data = $model->create()) {
            $this->error($model->getError());
        }
+       $salt = $model->getSalt();
 
        $userInfo = array(
        "username" => I("post.username"),
-       "password" => md5(md5(I("post.password"))),
-       "repeatpassword" => md5(md5(I("post.repeatpassword"))),
+       "password" => md5(md5(I("post.password")).$salt),
+       "repeatpassword" => md5(md5(I("post.repeatpassword")).$salt),
         );
+
+       $userInfo['salt'] = $salt;
+       
        if (!$model->validate($userInfo)->create()) {
            $this->error("注册失败！");
        }else{

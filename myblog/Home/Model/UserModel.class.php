@@ -18,14 +18,14 @@ class UserModel extends Model
         return $this->where($map)->find();
     }
 
-      //加盐
-   //  public function getSalt()
-   // {
-   //     $arr = [array_merge(range('0', '9'),  range('A', 'Z'))];
-   //     $salt = '';
-   //     for($i = 0;$i<5;$i++){
-   //         $salt .= (string)$arr[0][floor(mt_rand(0,35))];
-   //     }
-   //     return $salt;
-   // }
+     // 加盐
+    public function getSalt()
+   {
+       $arr = [array_merge(range('0', '9'),  range('A', 'Z'))];
+       $salt = '';
+       for($i = 0;$i<5;$i++){
+           $salt .= (string)$arr[0][floor(mt_rand(0,35))];
+       }
+       return $salt;
+   }
 }

@@ -39,7 +39,7 @@ class LoginController extends CommonController
 			//记录session
 			//session(array('name'=>'PHPSESSID','expire'=>3600));
 			  //session_start();
-			setcookie(session_name("username"), session_id(), time()+10);
+			//setcookie(session_name("username"), session_id(), time()+10);
 			session("username",$userInfo);
 			//session("expire",60);
 			//操作成功
