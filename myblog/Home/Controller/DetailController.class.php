@@ -38,23 +38,20 @@ class DetailController extends Controller
 	//执行评论添加
 	public function commentinsert()
 	{	
+        //获取数据
 		$comment = I("post.");
-		$id = I("post.id");
-		//var_dump($id);die;
-		//var_dump($comment);die;
+		$id = I("post.article_id");
 		$commentmodel = D("Comment");
-		// var_dump($commentmodel);die;
 		//创建数据对象
 		if (FALSE === $data = $commentmodel->create()) {
 			$this->error($commentmodel->getError());
 		}
-		//var_dump($data);die;
 		//执行添加操作
 		if ($result = $commentmodel->data($data)->add()) {
 			//评论成功
-			$this->success("评论成功!");
+    		$this->success("评论成功!","/articledetail/{$id}?".'#commentlist');
 		}else{
-			$this->error("失败");
+			$this->error("评论失败!");
 		}
 	}
 

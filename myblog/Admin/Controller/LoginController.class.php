@@ -45,7 +45,7 @@ class LoginController extends Controller
            //记录session
             session('adminuser',$userInfo);
             //判断是否是管理员登录
-            if(session('adminuser')["is_forbidden"] != 0){
+            if(session('adminuser')["is_admin"] != 0){
                  //跳转到后台首页
                  $this->success('登录成功！','/Admin');
             }else{

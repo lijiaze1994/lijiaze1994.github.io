@@ -31,7 +31,7 @@
                 <div class="panel-body" style="padding:30px;">
                     <div class="form-group">
                         <div class="field field-icon-right">
-                            <input type="text" class="input" name="username" placeholder="登录账号" data-validate="required:请填写账号,length#>=5:账号长度不符合要求" />
+                            <input type="text" class="input" name="username" placeholder="登录账号" data-validate="required:请填写账号,length#>=4:账号长度不符合要求" />
                             <span class="icon icon-user"></span>
                         </div>
                     </div>

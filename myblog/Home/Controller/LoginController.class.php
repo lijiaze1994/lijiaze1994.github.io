@@ -9,10 +9,11 @@ class LoginController extends CommonController
 	{
 		$this->display();
 	}
-
 	//执行登录操作
 	public function dealLogin()
 	{	
+		$url = I("post.lasturl");
+		//var_dump($url);die;
 		//比对验证码是否正确
 		$verifycode = I("post.verifycode");
 		$verify = new \Think\Verify();
@@ -34,22 +35,16 @@ class LoginController extends CommonController
 		}
 		 //存在该用户则比对密码：
 		$requirePasswod = md5(md5($data['password']).$userInfo['salt']);
-
 		if ($requirePasswod == $userInfo['password']) {
 			//记录session
-			//session(array('name'=>'PHPSESSID','expire'=>3600));
-			  //session_start();
-			//setcookie(session_name("username"), session_id(), time()+10);
 			session("username",$userInfo);
-			//session("expire",60);
 			//操作成功
-			$this->success("成功登录！欢迎".$userInfo["username"],"/Article");
+			$this->success("成功登录！欢迎".$userInfo["username"],$url);
 		}else{
 			//操作失败
 			$this->error("用户名或密码错误！");
 		}
 	}
-
 	//执行注销操作
 	public function dealLogout()
 	{
@@ -57,7 +52,6 @@ class LoginController extends CommonController
 		session("username",null);
 		//跳转到列表页
 		$this->success("注销成功！","/Article/index");
-		//$this->redirect("Article/index");
 	}
 
 }

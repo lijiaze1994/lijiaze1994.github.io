@@ -64,7 +64,7 @@
                 	<img src="__PUBLIC__/admin/images/face.jpg" width="120" class="radius-circle" /><br />
                     <?php echo $_SESSION['loginUser']['username'];?>
                 </div>
-                <div class="panel-foot bg-back border-back">您好，<?php echo $_SESSION['loginUser']['username'];?>，这是您第100次登录，上次登录为2016-10-1。</div>
+                <div class="panel-foot bg-back border-back">您好，{$_SESSION['adminuser']['username']}，这是您第100次登录，上次登录为2016-10-1。</div>
             </div>
             <br />
         	<div class="panel">
@@ -91,7 +91,7 @@
             	<div class="panel-head"><strong>系统信息</strong></div>
                 <table class="table">
                 	<tr><th colspan="2">服务器信息</th><th colspan="2">系统信息</th></tr>
-                    <tr><td width="110" align="right">操作系统：</td><td>Windows 2008</td><td width="90" align="right">系统开发：</td><td><a href="#" target="_blank">ICFrame框架</a></td></tr>
+                    <tr><td width="110" align="right">操作系统：</td><td>Ubuntu 18.04</td><td width="90" align="right">系统开发：</td><td><a href="#" target="_blank">ICFrame框架</a></td></tr>
                     <tr><td align="right">Web服务器：</td><td>Apache/2 PHP/5</td><td align="right">主页：</td><td><a href="#" target="_blank">#</a></td></tr>
                     <tr><td align="right">服务器IP：</td><td>127.0.0.1</td><td align="right">演示：</td><td><a href="#" target="_blank">http://www.blog.com</a></td></tr>
                     <tr><td align="right">数据库：</td><td>MySQL</td><td align="right">群交流：</td><td><a href="#" target="_blank">12345678</a> (点击加入)</td></tr>

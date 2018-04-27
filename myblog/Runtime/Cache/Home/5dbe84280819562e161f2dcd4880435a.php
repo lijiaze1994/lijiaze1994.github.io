@@ -10,6 +10,7 @@
 		<div class="con">
 			<div class="center">
 				<form action="/Login/deallogin" method="post" >
+					<input type="hidden" name="lasturl" value="<?php echo ($_SERVER['HTTP_REFERER']); ?>">
 					<div class="form-header">
 						<h2>用户登录中心</h2>
 						<p>User Login Center</p>

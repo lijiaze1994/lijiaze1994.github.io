@@ -167,11 +167,11 @@ section{
 }
 /*=================footer==========================*/
 footer{
-	width: 1583px;
+	/*width: 1583px;*/
 	height: 220px;
 }
 .foot-img{
-	width: 1583px;
+	/*width: 1583px;*/
 	height: 80px;
 	text-align: center;
 	display: flex;
@@ -190,10 +190,10 @@ footer{
 	margin-left: 20px;
 }
 .foot-img-li1{
-	background:url(../images/github.png) no-repeat 5px 6px;
+	background:url(../images/gthub.png) no-repeat 5px 6px;
 }
 .foot-img-li1:hover{
-	background: url(../images/newgithub.png) no-repeat 5px 6px;
+	background: url(../images/newgthub.png) no-repeat 5px 6px;
 	transition: 0.5s all;
 }
 .foot-img-li2{

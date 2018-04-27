@@ -11,7 +11,7 @@ return array(
 	//URL模式   REWRITE模式
 	"URL_MODEL" => "2",
 
-	"SHOW_PAGE_TRACE" => true,
+	"SHOW_PAGE_TRACE" => false,
 
 
 	//数据库配置信息

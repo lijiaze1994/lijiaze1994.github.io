@@ -67,7 +67,7 @@
 	 						<button class="y btn btn-primary btn-fixed-n" type="submit">评论</button>
 	 					</div>
 	 				</form>
-	 				<h2 class="comment-tit">评论列表</h2>
+	 				<h2 class="comment-tit" id="commentlist">评论列表</h2>
 					<ul class="comment comment-inner cl">
 						<?php if(is_array($commentlist)): foreach($commentlist as $key=>$vo): ?><li class="cl">							
 									<a class="avatar" title="" href="javascript:;">
